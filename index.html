@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="task-container">
+            <h1>Задачи</h1>
+            <div class="filters">
+                <button class="btn_All active" id="taskAll">Все</button>
+                <button class="btn_Active" id="taskActive">Активные</button>
+                <button class="btn_Completed" id="taskCompleted">Выполненные</button>
+            </div>
+            <ul class="taskList" id="taskList">
+            </ul>
+        </div>
+        <div class="add-task-container">
+            <input type="text" class="taskAdd" placeholder="Новая задача...">
+            <button class="btn_Add">Добавить</button>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
